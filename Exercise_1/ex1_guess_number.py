@@ -5,11 +5,10 @@ Guess the number game. Program chooses the random number in range 1-100 and user
 When the entered value is too small or too big, the user gets the corresponding message.
 
 After giving a letter instead of number, the warning is showed. 
-:comp_picked_number: int
-:return: number chosen randomly by the computer
+:param comp_picked_number: number chosen randomly by the computer
+:param user_picked_number: consecutive guesses by the user
 
-:user_picked_numeber: int
-:return: consecutive guesses by the user
+
 """
 comp_picked_number = random.randint(1,100)
 while True:
